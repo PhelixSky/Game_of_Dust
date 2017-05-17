@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f77bed45-2316-4b98-b548-3a54af05da28"
+  name="Properties"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="4879b9e1-36f0-41ca-bad3-db6695d3ef21"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DGame_of_Dust.Properties"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="e374e25c-6859-41f0-8a60-155633fce528"
+        name="Settings"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="71de9adf-d04d-471e-b601-d38a084a1698"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPhelix%2FDesktop%2FСамоучка%2FWindowsFormsApplication332%2FWindowsFormsApplication332%2Fbin%2FDebug%2FGame of Dust.exe&quot; Namespace%3DGame_of_Dust.Properties Type%3DSettings"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="07ccfc51-958c-45eb-8ce6-08cf19f9803c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="06b1a1df-e542-4487-9b5c-83d5f3136f28">
+                <propertyInstance
+                  Id="5bc7f31c-3be8-464c-a0ee-04065e5a7145"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b23f8727-61b1-4f5e-a43b-1f748956ba15">
+                <propertyInstance
+                  Id="6b3ce34a-511d-43de-ac67-664fd00c876a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="add18ac9-fe79-4294-ad64-f4d8fd45a55d">
+                <propertyInstance
+                  Id="9ca8c473-7cf8-447f-967b-9ba55d2be6f0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="690105e5-64c3-414e-8c44-a9d4cffc16d0">
+                <propertyInstance
+                  Id="785373f9-79c6-4a7b-9523-4199dc67eace"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7919761e-6f2d-4ade-868d-e92a6b967449">
+                <propertyInstance
+                  Id="4e3c8239-f0a8-4aff-adde-358362d9e38b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="66891d82-b729-499e-948d-be1ad1f82c14"
+            isSubstitutable="false">
+            <classMoniker
+              Id="8c567a68-6234-4954-9999-232f2f3883fe"
+              LastKnownName="ApplicationSettingsBase"
+              LastKnownLocation="Package3_1155.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="f36a9c26-3118-4a2f-8ce9-34176f4c89f3"
+            isDerived="false"
+            sourceEndRoleName="Settings"
+            targetEndRoleName="Default"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="e374e25c-6859-41f0-8a60-155633fce528"
+              LastKnownName="Settings"
+              LastKnownLocation="Package_1155.uml" />
+            <description>Property Default references type Settings.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a8403e4f-7cea-4f58-83dc-f7273b5fe2f8"
+                  name="Settings"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="1cd42fdd-e2f6-492c-807c-90b660408946"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a53111f2-d311-4d46-a64a-510575dbcba8"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b225fa4a-5606-438d-bb65-4df9f5b2d55a"
+                  name="Default"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="ebf80cdf-ecd8-4e3a-a412-15265caddbe2"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="5297967f-7a9e-44be-9976-1d0d9a5200ed"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="5067495a-98b6-4f87-a6a1-a9739eac0d76"
+            name="Default"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f9ee20da-2b92-44ea-aa44-295144c7bbc3"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPhelix%2FDesktop%2FСамоучка%2FWindowsFormsApplication332%2FWindowsFormsApplication332%2Fbin%2FDebug%2FGame of Dust.exe&quot; Namespace%3DGame_of_Dust.Properties Type%3DSettings Member%3DDefault"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6eed06bb-012e-4de4-a0c0-72600df2256f"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5d62696-7dca-49c3-a3f8-59ef7e4bfe84">
+                    <propertyInstance
+                      Id="eb7b51fe-5285-459a-a77e-c8a13c82c481"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="298d7125-dc1d-4404-bfc8-e5c813f90bc7">
+                    <propertyInstance
+                      Id="065972a5-1bcf-426b-8399-a051d3e5346f"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="048e46f5-81fb-416c-8dd1-28d880c0cb3e">
+                    <propertyInstance
+                      Id="5f92c3bb-0cca-4270-88b5-db78ccf8549c"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d8f3caf-0396-4dea-bce4-00bfae0ac7d4">
+                    <propertyInstance
+                      Id="d99745fb-fb29-46a5-9c4f-0aa4e8b16b37"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45cfa5e1-37a3-42d5-b0d1-0f5891892a04">
+                    <propertyInstance
+                      Id="5b299e67-a23f-45c0-ad2e-0e36aa5991d3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f3527da-da4f-444e-873e-8ad645220b58">
+                    <propertyInstance
+                      Id="3e64e311-45f3-414f-a4f3-bbe5221b0bd3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ab1146f-04ed-45aa-8694-4c57cdbdd839">
+                    <propertyInstance
+                      Id="200de06e-295a-44a0-b036-4d51c11b18c2"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="e374e25c-6859-41f0-8a60-155633fce528"
+                LastKnownName="Settings"
+                LastKnownLocation="Package_1155.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e80a35b9-03aa-4051-acf6-70ac27007e36"
+            name="defaultInstance"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="22544138-4595-457c-9fab-b8494de7a292"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPhelix%2FDesktop%2FСамоучка%2FWindowsFormsApplication332%2FWindowsFormsApplication332%2Fbin%2FDebug%2FGame of Dust.exe&quot; Namespace%3DGame_of_Dust.Properties Type%3DSettings Member%3DdefaultInstance"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8beb9596-7f40-4921-a82f-d731f5f2f31c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5d8b162-2303-40b4-bea8-9585d1213efa">
+                    <propertyInstance
+                      Id="2812cf61-6a03-48ce-bab8-db3854e1c4ab"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b9973ab-17e1-4730-be00-59f7ed6e38ae">
+                    <propertyInstance
+                      Id="e9eadd00-f07b-4b09-b1b7-e8e5f3acf189"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="940c641c-1162-4d34-ad20-ec368492de35">
+                    <propertyInstance
+                      Id="10f3c8c7-2d63-4d6d-b326-71a13d460424"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c883e9b5-fbb6-4dce-84c3-b2d2e4733d2b">
+                    <propertyInstance
+                      Id="b03e7149-4cf4-48e0-b90d-e946457d422b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7330a5aa-0acb-4b22-9fc1-502aba7f4cf3">
+                    <propertyInstance
+                      Id="e2dd74b3-da37-43c4-955f-60f692aa9555"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="e374e25c-6859-41f0-8a60-155633fce528"
+                LastKnownName="Settings"
+                LastKnownLocation="Package_1155.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="4760f0ad-9afd-4083-a34d-f8accab3f9f0"
+            name="Settings"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0a84c451-a5e2-48c1-a24f-a4ba03ac8bc9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPhelix%2FDesktop%2FСамоучка%2FWindowsFormsApplication332%2FWindowsFormsApplication332%2Fbin%2FDebug%2FGame of Dust.exe&quot; Namespace%3DGame_of_Dust.Properties Type%3DSettings Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b9353e7c-22dd-4ba6-91f6-f8703a60b570"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e2acbf8-843a-4572-ad3e-3c4e33a64bc6">
+                    <propertyInstance
+                      Id="809fdd94-faee-465b-8360-bb39d89a55cd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13e07132-0fb4-4f5a-94a3-067cf6e7d616">
+                    <propertyInstance
+                      Id="731fad9b-2f1e-4def-8cda-b2cc7588f4e0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb1e0277-e7ad-4d5c-a2b5-074e9614ae32">
+                    <propertyInstance
+                      Id="e3e61110-6280-4da3-a0b3-bac0ce9ebacc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8938d499-a394-43f5-9775-616bc7448bc7">
+                    <propertyInstance
+                      Id="0349eeb3-64fe-4997-b6ab-29815abf3d94"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46f11fd8-feba-456d-b0cb-930c575612ad">
+                    <propertyInstance
+                      Id="a71eca5c-8997-4108-b897-285afad80a6b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e97177d1-c5ab-4e61-b5e0-8b82ea2b3a68">
+                    <propertyInstance
+                      Id="2fba3df6-cb3e-44f5-b510-91e250fd38fb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

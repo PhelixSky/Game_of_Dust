@@ -1,0 +1,20 @@
+C:\Users\Phelix\Desktop\WindowsFormsApplication332\WindowsFormsApplication332\obj\x86\Debug\Game of Dust.csprojResolveAssemblyReference.cache
+C:\Users\Phelix\Desktop\WindowsFormsApplication332\WindowsFormsApplication332\obj\x86\Debug\Game of Dust.csproj.GenerateResource.Cache
+C:\Users\Phelix\Desktop\WindowsFormsApplication332\WindowsFormsApplication332\obj\x86\Debug\Game_of_Dust.SandboxPanel.resources
+C:\Users\Phelix\Desktop\WindowsFormsApplication332\WindowsFormsApplication332\obj\x86\Debug\Game_of_Dust.MainForm.resources
+C:\Users\Phelix\Desktop\WindowsFormsApplication332\WindowsFormsApplication332\obj\x86\Debug\Game_of_Dust.Properties.Resources.resources
+C:\Users\Phelix\Desktop\WindowsFormsApplication332\WindowsFormsApplication332\bin\Debug\Game of Dust.exe
+C:\Users\Phelix\Desktop\WindowsFormsApplication332\WindowsFormsApplication332\bin\Debug\Game of Dust.pdb
+C:\Users\Phelix\Desktop\WindowsFormsApplication332\WindowsFormsApplication332\obj\x86\Debug\Game of Dust.exe
+C:\Users\Phelix\Desktop\WindowsFormsApplication332\WindowsFormsApplication332\obj\x86\Debug\Game of Dust.pdb
+C:\Users\Phelix\Desktop\Самоучка\WindowsFormsApplication332\WindowsFormsApplication332\obj\x86\Debug\Game of Dust.pdb
+C:\Users\Phelix\Desktop\Самоучка\WindowsFormsApplication332\WindowsFormsApplication332\bin\Debug\Game of Dust.exe
+C:\Users\Phelix\Desktop\Самоучка\WindowsFormsApplication332\WindowsFormsApplication332\bin\Debug\Game of Dust.pdb
+C:\Users\Phelix\Desktop\Самоучка\WindowsFormsApplication332\WindowsFormsApplication332\obj\x86\Debug\Game of Dust.csprojResolveAssemblyReference.cache
+C:\Users\Phelix\Desktop\Самоучка\WindowsFormsApplication332\WindowsFormsApplication332\obj\x86\Debug\Game_of_Dust.SandboxPanel.resources
+C:\Users\Phelix\Desktop\Самоучка\WindowsFormsApplication332\WindowsFormsApplication332\obj\x86\Debug\Game_of_Dust.MainForm.resources
+C:\Users\Phelix\Desktop\Самоучка\WindowsFormsApplication332\WindowsFormsApplication332\obj\x86\Debug\Game_of_Dust.Properties.Resources.resources
+C:\Users\Phelix\Desktop\Самоучка\WindowsFormsApplication332\WindowsFormsApplication332\obj\x86\Debug\Game of Dust.csproj.GenerateResource.Cache
+C:\Users\Phelix\Desktop\Самоучка\WindowsFormsApplication332\WindowsFormsApplication332\obj\x86\Debug\Game of Dust.exe
+C:\Users\Phelix\Desktop\Game of Dust\WindowsFormsApplication332\obj\x86\Debug\Game of Dust.exe
+C:\Users\Phelix\Desktop\Game of Dust\WindowsFormsApplication332\obj\x86\Debug\Game of Dust.pdb
